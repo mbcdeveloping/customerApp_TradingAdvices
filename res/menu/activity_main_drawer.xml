@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:id="@+id/group1" >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_how_to"
+            android:icon="@drawable/ic_trade"
+            android:title="Important news" />
+        <item
+            android:id="@+id/nav_disclaimer"
+            android:icon="@drawable/ic_dissclaimer"
+            android:title="Disclaimer" />
+
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/group2">
+        <item android:title="">
+            <menu>
+                <item android:id="@+id/nav_user"
+                    android:icon="@drawable/ic_action_name"
+                    android:title="Account info"/>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share this app" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
